@@ -5,7 +5,7 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\sound1</sound>
+    <sound>sound\snd_egypt</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
@@ -24,10 +24,7 @@
     <sprite>sprites\sprite12</sprite>
     <sprite>sprites\sprite13</sprite>
   </sprites>
-  <backgrounds name="background">
-    <background>background\background0</background>
-    <background>background\background1</background>
-  </backgrounds>
+  <backgrounds name="background"/>
   <paths name="paths">
     <path>paths\path0</path>
   </paths>
@@ -43,34 +40,18 @@
     <font>fonts\font2</font>
   </fonts>
   <objects name="objects">
-    <object>objects\object0</object>
-    <object>objects\object1</object>
-    <object>objects\object11</object>
-    <object>objects\object5</object>
-    <object>objects\object2</object>
-    <object>objects\object3</object>
-    <object>objects\object4</object>
-    <object>objects\object6</object>
-    <object>objects\object7</object>
-    <object>objects\object8</object>
-    <object>objects\object9</object>
-    <object>objects\object14</object>
-    <object>objects\object10</object>
-    <object>objects\object12</object>
-    <object>objects\object13</object>
-    <object>objects\object15</object>
-    <object>objects\object16</object>
-    <object>objects\object17</object>
+    <object>objects\obj_gremlin</object>
+    <object>objects\obj_fat</object>
+    <object>objects\obj_robot</object>
+    <object>objects\obj_cyclome</object>
+    <object>objects\obj_score_drawer</object>
+    <object>objects\obj_send_score</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline0</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\room3</room>
-    <room>rooms\room2</room>
-    <room>rooms\room4</room>
-    <room>rooms\rm_cat</room>
-    <room>rooms\room1</room>
+    <room>rooms\rm_game</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
