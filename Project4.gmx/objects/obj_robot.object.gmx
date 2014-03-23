@@ -93,9 +93,8 @@ score++;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-fart();
-//room_restart();
+            <string>instance_create(x,y,obj_is_highest_score);
+instance_destroy();
 </string>
           </argument>
         </arguments>

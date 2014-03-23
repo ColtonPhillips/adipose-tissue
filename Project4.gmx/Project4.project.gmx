@@ -8,48 +8,29 @@
     <sound>sound\snd_egypt</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sprite0</sprite>
     <sprite>sprites\sprite1</sprite>
-    <sprite>sprites\sprite2</sprite>
-    <sprite>sprites\sprite3</sprite>
-    <sprite>sprites\sprite4</sprite>
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\sprite6</sprite>
     <sprite>sprites\sprite7</sprite>
     <sprite>sprites\sprite8</sprite>
-    <sprite>sprites\sprite14</sprite>
     <sprite>sprites\sprite9</sprite>
-    <sprite>sprites\sprite10</sprite>
-    <sprite>sprites\sprite11</sprite>
-    <sprite>sprites\sprite12</sprite>
-    <sprite>sprites\sprite13</sprite>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths">
-    <path>paths\path0</path>
-  </paths>
-  <scripts name="scripts">
-    <script>scripts\fart.gml</script>
-  </scripts>
-  <shaders name="shaders">
-    <shader type="GLSLES">shaders\shader0.shader</shader>
-  </shaders>
+  <paths name="paths"/>
+  <scripts name="scripts"/>
+  <shaders name="shaders"/>
   <fonts name="fonts">
     <font>fonts\font0</font>
-    <font>fonts\font1</font>
-    <font>fonts\font2</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_gremlin</object>
     <object>objects\obj_fat</object>
     <object>objects\obj_robot</object>
     <object>objects\obj_cyclome</object>
-    <object>objects\obj_score_drawer</object>
-    <object>objects\obj_send_score</object>
+    <object>objects\obj_score</object>
+    <object>objects\obj_is_highest_score</object>
   </objects>
-  <timelines name="timelines">
-    <timeline>timelines\timeline0</timeline>
-  </timelines>
+  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\rm_game</room>
   </rooms>

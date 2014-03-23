@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (not gamepad_is_supported()) 
+            <string>/*if (not gamepad_is_supported()) 
     instance_destroy();
 
 direction = point_direction(0, 0, gamepad_axis_value(0, gp_axislh), gamepad_axis_value(0, gp_axislv));
@@ -66,7 +66,7 @@ physics_apply_torque( 1000 * gamepad_button_value(0,gp_shoulderrb))
 
 //tried to do fart
 //physics_apply_force(phy_com_x,phy_com_y, lengthdir_x(100,phy_rotation),lengthdir_y(100,phy_rotation));    
-
+*/
 </string>
           </argument>
         </arguments>
