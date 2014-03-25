@@ -17,10 +17,10 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts"/>
-  <shaders name="shaders"/>
   <fonts name="fonts">
     <font>fonts\font0</font>
+    <font>fonts\font1</font>
+    <font>fonts\font2</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_gremlin</object>
@@ -29,11 +29,16 @@
     <object>objects\obj_cyclome</object>
     <object>objects\obj_score</object>
     <object>objects\obj_is_highest_score</object>
+    <object>objects\obj_suggest_high_score</object>
+    <object>objects\obj_take_team_name</object>
+    <object>objects\obj_debug_hold_r_restart_game</object>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\rm_game</room>
   </rooms>
+  <constants number="1">
+    <constant name="SPEED">100</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>

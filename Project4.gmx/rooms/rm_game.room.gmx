@@ -10,7 +10,8 @@
   <persistent>0</persistent>
   <colour>12189625</colour>
   <showcolour>-1</showcolour>
-  <code></code>
+  <code>audio_stop_all();
+audio_play_sound(snd_egypt,1,true);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <makerSettings>
@@ -681,7 +682,7 @@
     <instance objName="obj_fat" x="-32" y="512" name="inst_3AA90155" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fat" x="-32" y="480" name="inst_CC506B9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fat" x="-64" y="480" name="inst_89E9F281" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cyclome" x="448" y="3104" name="inst_8C574357" locked="0" code="" scaleX="100" scaleY="100" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fat" x="384" y="-96" name="inst_ACF10CD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fat" x="-64" y="416" name="inst_540AD799" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fat" x="-64" y="384" name="inst_2023F332" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fat" x="-64" y="352" name="inst_75F153F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -771,11 +772,12 @@
     <instance objName="obj_fat" x="288" y="576" name="inst_90724F16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fat" x="352" y="-96" name="inst_FA809614" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fat" x="800" y="96" name="inst_BD866ADF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cyclome" x="-32" y="1408" name="inst_36A90690" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cyclome" x="-64" y="1280" name="inst_36A90690" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_fat" x="512" y="-96" name="inst_1E78DEB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fat" x="544" y="-96" name="inst_BD975656" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cyclome" x="1056" y="192" name="inst_1D56BECA" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fat" x="384" y="-96" name="inst_ACF10CD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cyclome" x="384" y="2080" name="inst_E55414FB" locked="0" code="" scaleX="16" scaleY="16" colour="4294967295" rotation="0"/>
+    <instance objName="obj_debug_hold_r_restart_game" x="32" y="160" name="inst_E6543471" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

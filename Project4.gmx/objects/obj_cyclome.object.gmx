@@ -8,6 +8,29 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>dir = point_direction(x, y, x + 1, y + 1);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -30,15 +53,11 @@
     return 0;
 }
 
-var dir = point_direction(x, y, obj_robot.x, obj_robot.y);
-var SPEED = 100;
-
+dir = point_direction(x, y, obj_robot.x, obj_robot.y);
 physics_apply_force(phy_com_x,phy_com_y,lengthdir_x(SPEED, dir),lengthdir_y(SPEED, dir));
 
-var dir = point_direction(obj_cyclome.x, obj_cyclome.y,x, y );
-var SPEED = 1;
-
-physics_apply_force(phy_com_x,phy_com_y,lengthdir_x(SPEED, dir),lengthdir_y(SPEED, dir));
+dir = point_direction(obj_cyclome.x, obj_cyclome.y,x, y );
+physics_apply_force(phy_com_x,phy_com_y,lengthdir_x(1, dir),lengthdir_y(1, dir));
 
 physics_apply_torque(random_range(-1000,1000));
 </string>
