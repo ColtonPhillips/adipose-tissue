@@ -49,9 +49,9 @@ team = "";
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (instance_exists(obj_robot)) {
+            <string>//if (instance_exists(obj_robot)) {
 game_score = game_score + 1;
-}
+//}
 </string>
           </argument>
         </arguments>
@@ -98,9 +98,9 @@ game_score = game_score + 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (instance_exists(obj_robot)) {
-    draw_text(obj_robot.x + 10,obj_robot.y + 10,game_score);
-}
+            <string>//if (instance_exists(obj_robot)) {
+    draw_text(10,10, string(game_score) + " / " + string(highscore_value(1)));
+//}
 </string>
           </argument>
         </arguments>

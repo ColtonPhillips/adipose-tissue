@@ -48,10 +48,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (!instance_exists(obj_robot))
-{
-    return 0;
-}
+            <string>//if (!instance_exists(obj_robot))
+//{
+//    return 0;
+//}
 
 dir = point_direction(x, y, obj_robot.x, obj_robot.y);
 physics_apply_force(phy_com_x,phy_com_y,lengthdir_x(SPEED, dir),lengthdir_y(SPEED, dir));

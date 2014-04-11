@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (keyboard_check(vk_left)) {
+            <string>/*if (keyboard_check(vk_left)) {
     physics_apply_impulse(phy_com_x, phy_com_y, -100,0);
 }
 
@@ -39,7 +39,9 @@ if (keyboard_check(vk_down)) {
 if (keyboard_check(vk_up)) {
     physics_apply_impulse(phy_com_x, phy_com_y, 0,-100);
 }
-
+*/
+if ! mouse_check_button_pressed(mb_left) return 0;
+physics_apply_impulse(phy_com_x, phy_com_y, 42* (mouse_x- phy_com_x),42*(mouse_y - phy_com_y));
 </string>
           </argument>
         </arguments>
@@ -62,8 +64,14 @@ if (keyboard_check(vk_up)) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(x,y,obj_is_highest_score);
-instance_destroy();
+            <string>//instance_create(x,y,obj_is_highest_score);
+//instance_destroy();
+
+highscore_add("",obj_score.game_score);
+ini_open('Settings.ini');
+ini_write_string('Score','hs',string(obj_score.game_score));
+ini_close();
+room_restart();
 </string>
           </argument>
         </arguments>
