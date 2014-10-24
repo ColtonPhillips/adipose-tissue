@@ -49,9 +49,12 @@ team = "";
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//if (instance_exists(obj_robot)) {
-game_score = game_score + 1;
-//}
+            <string>var inst = instance_find(obj_robot,0);
+if (inst != noone) {
+    if (inst.x &gt; 0 &amp;&amp; inst.x &lt; room_width &amp;&amp; inst.y &gt; 0 &amp;&amp; inst.y &lt; room_height) {
+        game_score = game_score + 1;
+    }
+}
 </string>
           </argument>
         </arguments>
